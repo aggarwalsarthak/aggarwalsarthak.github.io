@@ -25,7 +25,7 @@ stackoverflow: username   #e.g: users/2735833/proton1h1
 medium: username #e.g: NobelPeaceOslo
 #Comment out if you don't want disqus
 disqus: username
-google_analytics: UA-69391421-1
+google_analytics: G-M0D09V41H0
 
 
 # needed for travis-ci build
