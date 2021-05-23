@@ -11,16 +11,16 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://username.github.io/
+url: http://aggarwalsarthak.github.io/
 baseurl: /
-title: Chris Turner
-author: Chris Turner
+title: Sarthak Aggarwal
+author: Sarthak Aggarwal
 description: Personal blog and resume
-avatar: profile.png
-email: yourname@email.com
-github: jekyller/sustain # username
+avatar: sarthak.png
+email: sarthakaggarwal97@gmail.com
+github: sarthakaggarwal97 # username
 twitter: username
-linkedin: username
+linkedin: sarthakaggarwal97
 stackoverflow: username   #e.g: users/2735833/proton1h1
 medium: username #e.g: NobelPeaceOslo
 #Comment out if you don't want disqus
