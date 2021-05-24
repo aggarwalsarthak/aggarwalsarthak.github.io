@@ -41,9 +41,32 @@
             <a href="{{ site.website_full }}">{{ site.website }}</a><br/>
         </p>
         <p>
-            <a href="mailto:{{ site.email}}"><i class="fa fa-envelope"></i></a>
+            <!-- <a href="mailto:{{ site.email}}"><i class="fa fa-envelope"></i></a>
             <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i></a>
-            <a href="http://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a>
+            <a href="http://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a> -->
+            <div class="social">
+                <h4>
+                {% if site.github %}
+                  <a href="http://github.com/{{ site.github }}"><i class="fa fa-github"></i></a>
+                {% endif %}
+                {% if site.email %}
+                  <a href="mailto:{{ site.email}}"><i class="fa fa-envelope"></i></a>
+                {% endif %}
+            
+                {% if site.twitter %}
+                  <a href="http://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i></a>
+                {% endif %}
+                {% if site.linkedin %}
+                  <a href="http://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a>
+                {% endif %}
+                {% if site.stackoverflow %}
+                  <a href="http://stackoverflow.com/{{ site.stackoverflow }}"><i class="fa fa-stack-overflow"></i></a>
+                {% endif %}
+                {% if site.medium %}
+                  <a href="https://medium.com/@{{ site.medium }}"><i class="fa fa-medium"></i></a>
+                {% endif %}
+                </h4>
+            </div>
         </p>
     </header>
     <div class="thirteen columns clearfix">
