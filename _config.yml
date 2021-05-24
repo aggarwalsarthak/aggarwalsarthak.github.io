@@ -11,7 +11,7 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://aggarwalsarthak.github.io/
+url: https://aggarwalsarthak.github.io/
 baseurl: /
 title: Sarthak Aggarwal
 author: Sarthak Aggarwal
@@ -19,14 +19,29 @@ description: Personal blog and resume
 avatar: sarthak.png
 email: sarthakaggarwal97@gmail.com
 github: sarthakaggarwal97 # username
-twitter: username
+twitter:
 linkedin: sarthakaggarwal97
-stackoverflow: username   #e.g: users/2735833/proton1h1
-medium: username #e.g: NobelPeaceOslo
+stackoverflow:  #e.g: users/2735833/proton1h1
+medium: #e.g: NobelPeaceOslo
 #Comment out if you don't want disqus
-disqus: username
+disqus:
 google_analytics: G-M0D09V41H0
 
+name: Sarthak Aggarwal
+email: sarthakaggarwal97@gmail.com
+email_full: mailto:sarthakaggarwal97@gmail.com
+website: https://aggarwalsarthak.github.io/
+website_full: https://aggarwalsarthak.github.io/
+github: sarthakaggarwal97
+twitter:
+tel: +91 (958) 2770355
+tel_full: tel:++919582770355
+google_maps: 'https://goo.gl/maps/fUApc7DLELDAdLah8'
+address:
+  street: New Delhi
+  postcode: 110018
+  city: Delhi
+  country: India
 
 # needed for travis-ci build
 exclude: [vendor]
