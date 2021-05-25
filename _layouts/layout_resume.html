@@ -23,6 +23,13 @@
     <!-- <link rel="apple-touch-icon" sizes="114x114" href="static/img/me-icon-114.png"> -->
 </head>
 <body>
+<div id="wrap">
+        <!-- Navbar header -->
+        {% include header.html %}
+    
+        {{ content }}
+    
+</div>
 <div class="container">
     <header class="three columns">
         <img src="{{ site.baseurl }}static/img/sarthak.png" class="me">
@@ -47,15 +54,15 @@
             <div class="social">
                 <h4>
                 {% if site.github %}
-                  <a href="http://github.com/{{ site.github }}"><i class="fa fa-github"></i></a>
+                  <a href="http://github.com/{{ site.github }}"><i class="fa fa-github"></i>&nbsp;</a>
                 {% endif %}
                 &nbsp;
                 {% if site.email %}
-                  <a href="mailto:{{ site.email}}"><i class="fa fa-envelope"></i></a>
+                  <a href="mailto:{{ site.email}}"><i class="fa fa-envelope"></i>&nbsp;</a>
                 {% endif %}
                 &nbsp;
                 {% if site.linkedin %}
-                  <a href="http://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a>
+                  <a href="http://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i>&nbsp;</a>
                 {% endif %}
                 </h4>
             </div>
