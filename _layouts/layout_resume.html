@@ -35,13 +35,11 @@
                     <img src="{{ site.baseurl }}static/img/sarthakvl.png" class="me">
                     <h1>{{ site.name }}</h1>
                     <p>
-                        <a href="{{ site.tel_full }}">{{ site.tel }}</a>
+                        <i class="fa fa-phone" aria-hidden="true"></i><a href="{{ site.tel_full }}">{{ site.tel }}</a>
                     </p>
                     <address>
                         <a href="{{ site.google_maps }}">
-                            {{ site.address.postcode }}<br />
-                            {{ site.address.city }}<br />
-                            {{ site.address.country }}
+                            {{ site.address.city }}, {{ site.address.country }}
                         </a>
                     </address>
                     <p>
@@ -54,11 +52,11 @@
                     <div class="social">
                         <h4>
                             {% if site.github %}
-                            <a href="http://github.com/{{ site.github }}"><i class="fa fa-github"></i>&nbsp;</a>
+                            <a href="http://github.com/{{ site.github }}"><i class="fa fa-github"></i>&nbsp;&nbsp;</a>
                             {% endif %}
                             &nbsp;
                             {% if site.email %}
-                            <a href="mailto:{{ site.email}}"><i class="fa fa-envelope"></i>&nbsp;</a>
+                            <a href="mailto:{{ site.email}}"><i class="fa fa-envelope"></i>&nbsp;&nbsp;</a>
                             {% endif %}
                             &nbsp;
                             {% if site.linkedin %}
