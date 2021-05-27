@@ -12,11 +12,14 @@ body {
 .container {
     margin-top: 30px;
 }
-
-a {
-    text-decoration: none;
-    /*background-color: rgba(39, 168, 34, 0.06);*/
+.container a {
+    color: #27A822;
 }
+
+/* a {
+    text-decoration: none;
+    /*background-color: rgba(39, 168, 34, 0.06);
+} */
 
 a:visited {
     text-decoration: none;
